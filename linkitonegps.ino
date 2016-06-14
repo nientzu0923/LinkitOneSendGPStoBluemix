@@ -56,8 +56,8 @@ PubSubClient client(servername, 1883, 0, wifiClient);
 //for GPS
 gpsSentenceInfoStruct info;
 char buff[256];
-float latitude;
-float longitude;
+double latitude;
+double longitude;
 static unsigned char getComma(unsigned char num,const char *str)
 {
   unsigned char i,j = 0;
